@@ -1,7 +1,23 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
+        Scanner in = new Scanner(System.in);
+        int pituus = 0;
+        int leveys = 0;
+
         tulostaOhjelmanNimi();
-        laksePintaAla(5, 10);
+
+        System.out.println("Anna pituus");
+        pituus = Integer.parseInt(in.nextLine());
+
+        System.out.println("Anna leveys");
+        leveys = Integer.parseInt(in.nextLine());
+
+        laksePintaAla(pituus, leveys);
+
+
+        //laksePintaAla(5, 10);
         
     }//END OF MAIN
 
