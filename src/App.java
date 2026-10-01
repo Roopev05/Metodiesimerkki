@@ -1,5 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        tulostaOhjelmanNimi();
+        tulostaOhjelmanNimi();
+        tulostaOhjelmanNimi();
+        
+    }//END OF MAIN
+
+    public static void tulostaOhjelmanNimi() {
+        System.out.println("Metodi-ohjelma");
     }
 }
